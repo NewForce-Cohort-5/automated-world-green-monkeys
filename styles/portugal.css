@@ -1,0 +1,31 @@
+.main-img-portugal {
+    border: 5px solid black;
+    width: 40vw;
+    height: auto;
+}
+
+.country-name-portugal {
+    background-image: linear-gradient(to right, darkgreen, crimson);
+    text-shadow: -1px 1px 0 black;
+    color: yellow;
+    text-align: center;
+}
+
+.main-list-portugal {
+    background-color: gray;
+}
+
+.city-list-portugal {
+    background-color:rosybrown;
+    margin: 1em;
+}
+
+.landmark-list-portugal{
+    background-color: tan;
+    margin: 1em;
+} 
+
+.celebrity-list-portugal {
+    background-color: peru;
+    margin: 1em;
+}
