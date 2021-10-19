@@ -1,3 +1,3 @@
-import { countryName } from "./scripts/portugal/city/CityList.js"
+import { countryName } from "./portugal/city/CityList.js"
 
 countryName()
