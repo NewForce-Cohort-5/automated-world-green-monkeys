@@ -23,6 +23,11 @@ h6 {
   letter-spacing: 2px;
 }
 
+/* Navbar */
+.nav-link {
+  font-size: 1.5em;
+}
+
 /* Footer */
 footer {
   display: flex;
