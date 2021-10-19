@@ -1,4 +1,4 @@
-export const citiesCollection = () => [
+const cityCollection = [
     { id: 1,
       name: "Lisbon",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lisbon_%2836831596786%29_%28cropped%29.jpg/280px-Lisbon_%2836831596786%29_%28cropped%29.jpg",
@@ -66,3 +66,7 @@ export const citiesCollection = () => [
         ]
     }
 ]
+
+export const useCities = () => {
+    return cityCollection.slice();
+}

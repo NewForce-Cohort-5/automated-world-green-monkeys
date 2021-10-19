@@ -1,4 +1,4 @@
-export const celebritiesCollection = () => [
+const celebrityCollection = [
     { id: 1,
       name: "Luís Figo",
       image: "https://www.thefamouspeople.com/profiles/thumbs/lus-figo-6.jpg",
@@ -18,3 +18,7 @@ export const celebritiesCollection = () => [
     //   pointsOfInterest: ["Born in 1986 in Braga", "Awarded Best Female Performer Award at the Armel Opera Competition in Hungary in 2011"]
     }
 ]
+
+export const useCelebrities = () => {
+    return celebrityCollection.slice();
+}

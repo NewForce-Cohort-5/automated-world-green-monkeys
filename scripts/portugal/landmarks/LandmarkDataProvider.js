@@ -1,4 +1,4 @@
-export const landmarksCollection = () => [
+const landmarkCollection = [
     { id: 1,
       name: "Oceanário de Lisboa",
       location: "Lisbon, Portugal",
@@ -22,3 +22,7 @@ export const landmarksCollection = () => [
     //   pointsOfInterest: ["Built 1784-1834 by Carlos Amarante", "One of the first Neoclassic churches of Portugal"]
     }
 ]
+
+export const useLandmarks = () => {
+    return landmarkCollection.slice();
+}
