@@ -1,4 +1,4 @@
-export const celebritiesCollection = () =>     
+ const celebritiesCollection =     
 [    
     {id: 1 ,
     name: 'Sidney Poitier',

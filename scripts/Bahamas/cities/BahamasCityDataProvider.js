@@ -1,4 +1,4 @@
-export const citiesCollection = () => [
+ const citiesCollection = [
         {id: 1,
         name: 'Nassau',
         image: "https://www.blackpast.org/wp-content/uploads/prodimages/files/Hilton_resort_and_waterfront_Nassau_Bahamas_2020.jpg",

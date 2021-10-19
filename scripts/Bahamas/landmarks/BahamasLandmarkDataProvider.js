@@ -1,5 +1,5 @@
 
-export const landmarksCollection = [
+const landmarksCollection = [
     {id: 1,
     name: 'The Cloisters',
     location: 'Nassau',
