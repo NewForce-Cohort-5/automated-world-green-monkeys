@@ -30,3 +30,7 @@ const landmarksCollection = [
     image: "https://www.sandals.com/blog/content/images/2018/06/blackbeard-s-tower.png",
  }
     ]
+
+export const uselandmarks = () => {
+        return landmarksCollection.slice()
+    }
