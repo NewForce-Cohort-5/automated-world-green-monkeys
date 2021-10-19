@@ -1,4 +1,4 @@
-celebritiesCollection =  [
+const celebritiesCollection =  [
     {  id: 1,
        name: "Jigme Dorji WangchuckJigme Singye Wangchuck",
        image: "https://en.wikipedia.org/wiki/File:Jigme_Singye_Wangchuck_2008.jpg",
