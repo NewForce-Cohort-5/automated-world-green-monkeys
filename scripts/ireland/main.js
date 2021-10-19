@@ -1,13 +1,22 @@
-import { navbar } from "../navbar/Navbar.js";
-
+import { navbarMarkup } from "../navbar/Navbar.js";
+import { footerMarkup } from "../footer/Footer.js";
 
 const displayNavbar = () => {
-    const nav = navbar();
-    const header = document.querySelector('header');
-    header.innerHTML += `
-        ${nav}
+    const navbar = navbarMarkup();
+    const headerContainer = document.querySelector('header');
+    headerContainer.innerHTML += `
+        ${navbar}
+    `
+}
+
+const displayFooter = () => {
+    const footer = footerMarkup();
+    const footerContainer = document.querySelector('footer');
+    footerContainer.innerHTML += `
+        ${footer}
     `
 }
 
 displayNavbar();
+displayFooter();
 
