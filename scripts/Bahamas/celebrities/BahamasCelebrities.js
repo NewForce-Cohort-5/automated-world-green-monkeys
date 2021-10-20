@@ -1,4 +1,4 @@
-import { useBahamasCelebrities } from "./BahamasCelebritiesDataProvider"
+import { useBahamasCelebrities } from "../celebrities/BahamasCelebritiesDataProvider.js"
 
 export const BahamasCelebrity = (bahamascelebrity) => {
     return `

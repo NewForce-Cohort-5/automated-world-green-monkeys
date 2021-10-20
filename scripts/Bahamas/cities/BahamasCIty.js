@@ -1,11 +1,12 @@
-import { useCities } from "./BahamasCityDataProvider"
+import { useCities } from "..//cities/BahamasCityDataProvider.js"
 
-export const BahamasCities = (bahamascities) => {
+export const BahamasCities = (bahamascity) => {
+    return `
         <section class="BahamaCityCard">
-        <div class="BahamaCityId">${bahamascelebrity.id}</div>                       
-            <div class="BahamaCityName">${bahamascelebrity.name}</div>
-            <div class="BahamaCitydescription">${bahamascelebrity.description}</div>
-            <div class="BahamaCitypointsOfInterest">${bahamascelebrity.pointsOfInterest}</div>
+            <div class="BahamaCityId">${bahamascity.id}</div>                       
+            <div class="BahamaCityName">${bahamascity.name}</div>
+            <div class="BahamaCitydescription">${bahamascity.description}</div>
+            <div class="BahamaCitypointsOfInterest">${bahamascity.pointsOfInterest}</div>
             <div ><img  class="" src="${bahamascity.image}" /></div>
             
         </section>
