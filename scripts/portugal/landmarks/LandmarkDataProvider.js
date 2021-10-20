@@ -2,7 +2,7 @@ const landmarkCollection = [
     { id: 1,
       name: "Oceanário de Lisboa",
       location: "Lisbon, Portugal",
-      image: "https://en.wikipedia.org/wiki/Lisbon_Oceanarium#/media/File:Lisboa_June_2014-8a.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lisboa_June_2014-8a.jpg/220px-Lisboa_June_2014-8a.jpg",
       description: "The Lisbon Oceanarium is an oceanarium in Lisbon, Portugal. It is located in the Parque das Nações, which was the exhibition grounds for the Expo '98. It is the largest indoor aquarium in Europe.",
     //   pointsOfInterest: ["Opened in 1998", "Diverse species of aquatic fish, birds, plants, and mammals."]
     },
@@ -23,6 +23,6 @@ const landmarkCollection = [
     }
 ]
 
-export const useLandmarks = () => {
+export const useLandmark = () => {
     return landmarkCollection.slice();
 }
