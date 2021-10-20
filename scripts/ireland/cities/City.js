@@ -18,13 +18,15 @@ export const city = (city) => {
       </svg>
 
       <div class="card-body">
+        <h2>${city.name}</h2>
         <p class="card-text">
           ${city.description}
         </p>
+        <h6>Points of Interest</h6>
         <div
           class="d-flex justify-content-between align-items-center"
         >
-          <small class="text-muted">9 mins</small>
+          <small class="text-muted">${city.pointsOfInterest[0].name}, ${city.pointsOfInterest[1].name}</small>
         </div>
       </div>
     </div>
