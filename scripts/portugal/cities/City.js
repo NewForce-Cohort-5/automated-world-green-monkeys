@@ -17,11 +17,19 @@ export const countryHdr = () => {
 
 // This is for the city list, the cityList_DivElementBuild entire container between the backticks `` will be placed into the html by using the code that is imported into the CityList.js file first, then imported from there into the main.js file, which tells it to place code into the selected class section alotted in the html file.
 export const cityList_divElementBuild = (city) => {
+    let city_pointsOfInterest = ""
+    for (let singlePoI of city.pointsOfInterest) {
+        city_pointsOfInterest += `<li>${singlePoI}</li>`
+    }
     return `
         <section class="city-list-portugal">
             <div><img class="thumbnail-img" src="${city.image}" alt="image"/></div>
             <div class="city-name">${city.name}</div>
             <div class="city-description">${city.description}</div>
+            <div class="city-poi-portugal">
+                <h3>Points of Interest</h3>
+                <ul>${city_pointsOfInterest}</ul>
+            </div>
         </section>
     `
 }

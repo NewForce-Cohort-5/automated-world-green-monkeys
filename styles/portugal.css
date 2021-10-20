@@ -68,11 +68,23 @@
     color: darkblue;
 }
 
+.city-poi-portugal h3{
+    font-size: 16px;
+    color: darkred;
+}
+
 /* Landmark List Items */
 .landmark-list-container-portugal{
-    background-color: tan;
-    margin: 1em;
+    border: 1px dashed oldlace;
+    padding: 5px;
 } 
+
+.landmark-list-portugal {
+    background-color:rosybrown;
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 5px;
+}
 
 .landmark-name {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -95,8 +107,15 @@
 
 /* Celebrity List Items */
 .celebrity-list-container-portugal {
-    background-color: peru;
-    margin: 1em;
+    border: 1px dashed oldlace;
+    padding: 5px;
+}
+
+.celebrity-list-portugal {
+    background-color:rosybrown;
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 5px;
 }
 
 .celebrity-name {
