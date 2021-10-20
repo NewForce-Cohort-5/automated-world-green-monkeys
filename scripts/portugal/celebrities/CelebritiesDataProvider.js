@@ -19,6 +19,6 @@ const celebrityCollection = [
     }
 ]
 
-export const useCelebrities = () => {
+export const useCelebrity = () => {
     return celebrityCollection.slice();
 }

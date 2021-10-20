@@ -1,34 +1,18 @@
 import { useCity } from "./CityDataProvider.js"
-import { City } from "./City.js"
+import { cityList_divElementBuild  } from "./City.js"
 
-
-// This is for the main picture and country name heading at top of the page.
-export const countryHdr = () => {
-    const contentElement = document.querySelector("#countryHdr")
-    
-    contentElement.innerHTML += `
-        <div class="main-img-portugal">
-            <img class="main-img-portugal"src="https://assets3.thrillist.com/v1/image/2418477/1200x630/flatten;crop_down;jpeg_quality=70" alt="Portugal"/>
-        </div>
-        <div class="country-name-portugal">
-            <h1>~PORTUGAL~</h1>
-        </div>
-    `
-}
-
-
-// This is for the city list from City.js file
- export const CityList = () => {
+// This is for the city list from City.js file, cityList becomes the item we export and call out in the main.js code
+ export const cityList = () => {
     const contentElement = document.querySelector(".city-list-container-portugal")
-    const city = useCity()
+    const cityList_groupObject = useCity()
 
     let cityHTMLRepresentation = ""
-    for (const cityListObject of city) {
-        cityHTMLRepresentation += City(cityListObject)
+    for (const cityList_singleObject of cityList_groupObject) {
+        cityHTMLRepresentation += cityList_divElementBuild(cityList_singleObject)
     }
 
     contentElement.innerHTML += `
-        <div class="CityList">
+        <div class="cityList">
             ${cityHTMLRepresentation}
         </div>`
  }

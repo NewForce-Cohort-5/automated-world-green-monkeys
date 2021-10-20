@@ -1,5 +1,10 @@
-import { countryHdr, CityList } from "./cities/CityList.js"
+import { countryHdr } from "./cities/City.js"
+import { cityList } from "./cities/CityList.js"
+import { landmarkList } from "./landmarks/LandmarkList.js"
+import { celebrityList } from "./celebrities/CelebritiesList.js"
 
-// calls the imported countryHdr that was added at the top of the code.
+// calls the imported items in the {} that were added at the top of the code.
 countryHdr()
-CityList()
+cityList()
+landmarkList()
+celebrityList()

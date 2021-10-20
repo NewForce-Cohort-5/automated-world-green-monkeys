@@ -67,6 +67,7 @@ const cityCollection = [
     }
 ]
 
+// useCity will be the shorthand name of the copy of the cityCollection we made in this code below:
 export const useCity = () => {
     return cityCollection.slice();
 }

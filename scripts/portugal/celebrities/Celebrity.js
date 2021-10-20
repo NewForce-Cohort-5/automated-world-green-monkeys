@@ -1,9 +1,9 @@
-export const Celebrity = (celebrity) => {
+export const celebrityList_divElementBuild = (celebrity) => {
     return `
-        <section class="cities-list-portugal">
-            <div><img class="thumbnail-img" src="${celebrity.image}" /></div>
+        <section class="celebrity-list-portugal">
+            <div><img class="thumbnail-img" src="${celebrity.image}" alt="image"/></div>
             <div class="celebrity-name">${celebrity.name}</div>
-            <div class="celebrity-description">${celebrity.descrition}</div>
+            <div class="celebrity-description">${celebrity.description}</div>
         </section>
     `
 }
