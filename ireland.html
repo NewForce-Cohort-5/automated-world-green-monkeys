@@ -11,61 +11,157 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/ireland.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="imgs/logo.png"
-            alt="Green Monkey's Logo"
-            width="200"
-            height="200"
-            class="d-inline-block align-text-center"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header>
+      <!-- navbar rendered by main.js -->
+    </header>
+    <main>
+      <div class="container py-4">
+        <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-5 row">
+            <h1 class="display-5 fw-bold">Ireland</h1>
+            <p class="col-md-8 fs-4">
+              From passage tombs older than the pyramids to cities founded by
+              Vikings, crumbling castles to grand country estates, Ireland's
+              history is etched on its landscape. Invaded and settled by the
+              Celts, the Vikings, the Normans, the English and the Scots over
+              thousands of years, they have all left their mark on its history,
+              geography, culture, language and people.
+            </p>
+            <img
+              class="col-md-4 fs-4"
+              id="ireland-flag"
+              src="https://geology.com/world/ireland-map.gif"
+              alt="Ireland Flag"
+            />
+          </div>
+        </div>
+
+        <div class="row align-items-md-stretch">
+          <div class="col-md-4">
+            <div class="h-100 p-5 text-black rounded-3 green-flag">
+              <h2>Cities</h2>
+              <p>
+                Choosing the best places to visit in Ireland can be a daunting
+                task, especially when there are so many great options. Make it
+                easy with our list of the best cities to visit in Ireland.
+              </p>
+              <button
+                class="btn btn-outline-light"
+                type="button"
+                onClick="document.querySelector('#cities').scrollIntoView()"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="h-100 p-5 text-black border rounded-3 white-flag">
+              <h2>Landmarks</h2>
+              <p>
+                A landmark is something that distinguishes a famous part of a
+                country or marks a historical event. Scattered across Ireland
+                are famous landmarks that tell the island’s story, recount its
+                incredible history, and remind us of why Ireland has become the
+                land that it is today.
+              </p>
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                onClick="document.querySelector('#landmarks').scrollIntoView()"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="h-100 p-5 text-black rounded-3 orange-flag">
+              <h2>Celebrities</h2>
+              <p>
+                The Irish are known to be a talented bunch. Numerous people from
+                all over the Emerald Isle have excelled in the fields of music,
+                literature, science, and just about anything else you can think
+                of.
+              </p>
+              <button
+                class="btn btn-outline-light"
+                type="button"
+                onClick="document.querySelector('#celebrities').scrollIntoView()"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cities -->
+        <section class="py-5 text-center container city-heading" id="cities">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Cities of Ireland</h1>
+            </div>
+          </div>
+        </section>
+
+        <div class="album py-5 bg-light city-container">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <!-- cities rendered by main.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Landmarks -->
+        <section
+          class="py-5 text-center container landmark-heading"
+          id="landmarks"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Bahamas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Bhutan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portugal</a>
-            </li>
-          </ul>
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Landmarks of Ireland</h1>
+            </div>
+          </div>
+        </section>
+
+        <div class="album py-5 bg-light landmark-container">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <!-- landmarks rendered by main.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Celebrities -->
+        <section
+          class="py-5 text-center container celebrity-heading"
+          id="celebrities"
+        >
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Celebrities of Ireland</h1>
+            </div>
+          </div>
+        </section>
+
+        <div class="album py-5 bg-light celebrity-container">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <!-- celebrities rendered by main.js -->
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <main class="container">
-      <h1>Ireland</h1>
-      <section class="cities-list">
-        <!-- rendered by main.js -->
-      </section>
-      <section class="landmarks-list">
-        <!-- rendered by main.js -->
-      </section>
-      <section class="celebrities-list">
-        <!-- rendered by main.js -->
-      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- footer rendered by main.js -->
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -76,5 +172,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/ireland/main.js" type="module"></script>
   </body>
 </html>

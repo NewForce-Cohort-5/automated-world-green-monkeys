@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+#ireland-flag {
+  width: 300px;
+  height: 300px;
+}
+
+.city-container {
+  margin-top: -25px;
+}
+
+.city-heading,
+.landmark-heading,
+.celebrity-heading {
+  margin-top: 100px;
+}
+
+.green-flag {
+  background-color: #0e9c62;
+}
+
+.white-flag {
+  background-color: white;
+}
+
+.orange-flag {
+  background-color: #ff893c;
+}

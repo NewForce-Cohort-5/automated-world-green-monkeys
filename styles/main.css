@@ -7,13 +7,42 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+  color: #404040;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
-} */
+}
+
+/* Navbar */
+.nav-link {
+  font-size: 1.5em;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #152b2c;
+  color: #3f9593;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#github-logo {
+  font-size: 1.5em;
+}
