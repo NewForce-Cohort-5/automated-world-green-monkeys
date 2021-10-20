@@ -32,3 +32,7 @@
         pointsOfInterest: "Bailey Town, Veterans memorial, Shipwreck on Radio Beach",
         }
 ]       
+
+export const useCities = () => {
+    return citiesCollection.slice()
+}

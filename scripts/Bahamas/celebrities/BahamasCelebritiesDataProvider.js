@@ -1,4 +1,4 @@
- const celebritiesCollection =     
+ const BahamascelebritiesCollection =     
 [    
     {id: 1 ,
     name: 'Sidney Poitier',
@@ -18,3 +18,7 @@
     description:  'a former Bahamian sprint athlete who specialised in the 100 and 200 metres. Ferguson-Mckenzie participated in five Olympics.'  
     }
 ]
+
+export const useBahamasCelebrities = () => {
+    return BahamascelebritiesCollection.slice()
+}
