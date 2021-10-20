@@ -1,6 +1,6 @@
-import { uselandmarks } from "./BahamasLandmarkDataProvider";
+import { uselandmarks } from "../landmarks/BahamasLandmarkDataProvider.js";
 
-export const BahamasLandmark = (bahamaslandmark) => {
+export const BahamasLandmarks = (bahamaslandmark) => {
     return `
         <section class="BahamasLandmarkCard">
         <div class="BahamasLandmarkId">${bahamaslandmark.id}</div>                       

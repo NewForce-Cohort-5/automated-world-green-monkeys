@@ -26,7 +26,7 @@ const landmarksCollection = [
     
     {id: 5,
     name: "Blackbeard's Tower",
-    location: 'Nassau'
+    location: 'Nassau',
     image: "https://www.sandals.com/blog/content/images/2018/06/blackbeard-s-tower.png",
  }
     ]
