@@ -6,3 +6,9 @@
 .city-container {
   margin-top: -25px;
 }
+
+.city-heading,
+.landmark-heading,
+.celebrity-heading {
+  margin-top: 100px;
+}
