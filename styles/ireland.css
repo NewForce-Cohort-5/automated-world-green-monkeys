@@ -12,3 +12,15 @@
 .celebrity-heading {
   margin-top: 100px;
 }
+
+.green-flag {
+  background-color: #0e9c62;
+}
+
+.white-flag {
+  background-color: white;
+}
+
+.orange-flag {
+  background-color: #ff893c;
+}
