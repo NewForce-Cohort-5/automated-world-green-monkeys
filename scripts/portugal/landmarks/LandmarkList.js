@@ -2,7 +2,7 @@ import { useLandmark } from "./LandmarkDataProvider.js"
 import { landmarkList_divElementBuild  } from "./Landmark.js"
 
  export const landmarkList = () => {
-    const contentElement = document.querySelector(".landmark-list-container-portugal")
+    const contentElement = document.querySelector(".landmark-list-container")
     const landmarkList_groupObject = useLandmark()
 
     let landmarkHTMLRepresentation = ""
@@ -11,6 +11,9 @@ import { landmarkList_divElementBuild  } from "./Landmark.js"
     }
 
     contentElement.innerHTML += `
+        <div class ="sub-header">
+            <h2>Landmarks</h2>
+        </div>
         <div class="landmarkList">
             ${landmarkHTMLRepresentation}
         </div>`
