@@ -41,9 +41,6 @@
               src="imgs/ireland-flag.png"
               alt="Ireland Flag"
             />
-            <!-- <button class="btn btn-primary btn-lg" type="button">
-            Learn More
-          </button> -->
           </div>
         </div>
 
@@ -56,7 +53,11 @@
                 task, especially when there are so many great options. Make it
                 easy with our list of the best cities to visit in Ireland.
               </p>
-              <button class="btn btn-outline-light" type="button">
+              <button
+                class="btn btn-outline-light"
+                type="button"
+                onClick="document.querySelector('#cities').scrollIntoView()"
+              >
                 Learn more
               </button>
             </div>
@@ -71,7 +72,11 @@
                 incredible history, and remind us of why Ireland has become the
                 land that it is today.
               </p>
-              <button class="btn btn-outline-secondary" type="button">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                onClick="document.querySelector('#landmarks').scrollIntoView()"
+              >
                 Learn more
               </button>
             </div>
@@ -85,7 +90,11 @@
                 literature, science, and just about anything else you can think
                 of.
               </p>
-              <button class="btn btn-outline-light" type="button">
+              <button
+                class="btn btn-outline-light"
+                type="button"
+                onClick="document.querySelector('#celebrities').scrollIntoView()"
+              >
                 Learn more
               </button>
             </div>
@@ -93,7 +102,7 @@
         </div>
 
         <!-- Cities -->
-        <section class="py-5 text-center container city-heading">
+        <section class="py-5 text-center container city-heading" id="cities">
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
               <h1 class="fw-light">Cities of Ireland</h1>
@@ -110,7 +119,10 @@
         </div>
 
         <!-- Landmarks -->
-        <section class="py-5 text-center container landmark-heading">
+        <section
+          class="py-5 text-center container landmark-heading"
+          id="landmarks"
+        >
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
               <h1 class="fw-light">Landmarks of Ireland</h1>
@@ -127,7 +139,10 @@
         </div>
 
         <!-- Celebrities -->
-        <section class="py-5 text-center container celebrity-heading">
+        <section
+          class="py-5 text-center container celebrity-heading"
+          id="celebrities"
+        >
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
               <h1 class="fw-light">Celebrities of Ireland</h1>
