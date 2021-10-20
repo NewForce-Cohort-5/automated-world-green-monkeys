@@ -1,3 +1,5 @@
-import { countryName } from "./portugal/city/CityList.js"
+import { countryHdr, CityList } from "./cities/CityList.js"
 
-countryName()
+// calls the imported countryHdr that was added at the top of the code.
+countryHdr()
+CityList()
