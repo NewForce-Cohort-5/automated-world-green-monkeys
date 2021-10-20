@@ -1,6 +1,7 @@
 import { navbarMarkup } from "../navbar/Navbar.js";
 import { footerMarkup } from "../footer/Footer.js";
 import { cityList } from "../ireland/cities/CityList.js";
+import { landmarkList } from "../ireland/landmarks/LandmarkList.js";
 
 const displayNavbar = () => {
     const navbar = navbarMarkup();
@@ -20,5 +21,6 @@ const displayFooter = () => {
 
 displayNavbar();
 cityList();
+landmarkList();
 displayFooter();
 
