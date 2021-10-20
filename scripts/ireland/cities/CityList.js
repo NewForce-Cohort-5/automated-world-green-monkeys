@@ -11,9 +11,9 @@ export const cityList = () => {
     }
 
     cityContainer.innerHTML += `
-    <div class="album py-5 bg-light">
+    <div class="album py-5 bg-light city-container">
         <div class="container">
-            <div class="row">
+            <div class="row g-3">
                 ${cityHTMLRepresentation}
             </div>
         </div>

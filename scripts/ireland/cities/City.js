@@ -2,7 +2,7 @@ import { useCities } from "../cities/CityDataProvider.js";
 
 export const city = (city) => {
     return `
-    <div class="col">
+    <div class="col-4">
     <div class="card shadow-sm">
       <svg
         class="bd-placeholder-img card-img-top"
