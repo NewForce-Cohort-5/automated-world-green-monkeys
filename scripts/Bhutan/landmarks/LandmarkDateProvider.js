@@ -12,10 +12,10 @@ const landmarksCollection = [
       pointsOfInterest: ["108 Druk Wangyal Khang Zhang Chortens or stupas", "the rhododendron garden which is part of the Royal Botanical Park"]
     },
     { id: 3,
-      name: "The Dochu La, also called Dochu Pass",
-      image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/7d/6a/6d/docula-overlooking-northern.jpg?w=1400&h=-1&s=1",
-      description: "This is a mountain pass in the snow covered Himalayas within Bhutan on the road from Thimphu to Punakha where 108 memorial chortens or stupas known as 'Druk Wangyal Chortens' have been built.",
-      pointsOfInterest: ["108 Druk Wangyal Khang Zhang Chortens or stupas", "the rhododendron garden which is part of the Royal Botanical Park"]
+      name: "Tachogang Lhakhang Bridge",
+      image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ec/c3/95/bridge-by-the-river.jpg?w=1200&h=-1&s=1",
+      description: "The Tachogang Lhakhang Bridge is more popularly known as the 'Iron Chain Bridge'. This bridge crosses the Paro Chhu River to a small Dzong (fortress). It has been estimated that this bridge is over 600 years old, and that this is the first bridge to have ever been built in Bhutan. .",
+      pointsOfInterest: [ ]
     }
   ]
 

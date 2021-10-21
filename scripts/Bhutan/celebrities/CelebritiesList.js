@@ -11,8 +11,9 @@ export const CelebList = () => {
         celebHTMLRepresentations += Celeb(singleCelebObj)
     }
     contentElementCeleb.innerHTML += `
-    <article class="celebList">
+    <section class="celebList">
+    <h2 class="celeb title"> Notable Bhutaneses</h2>
     ${celebHTMLRepresentations}
-    </article>
+    </section>
     `
 }

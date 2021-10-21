@@ -17,3 +17,63 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topSection {
+	max-width: 500px;
+	margin:auto;
+	/* avobe two make the section in the center */
+	border: solid 2px rgb(79, 79, 129);
+	padding: 10px;
+	
+}
+.topSection{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.topSection__description {
+	text-align: center;
+	width: 100%;
+}
+
+h2 {
+	font-style: bold;
+	font-size: 2em;
+	align-items: center;
+}
+.country__flex {
+	display: flex;
+	justify-content:center;
+	margin: 10px;
+	flex: 1;
+	
+	}
+.cityList .landmarkList .celebList {
+	padding: 10px;
+}
+.celeb-card .city-card .landmark-card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	}
+.landmark__description .cify__description .celebrity__description{
+	width:75%;
+	align-items: center;
+}
+
+img {
+	width: 300px;
+	padding: 5px;
+}
+p {
+	width: 300px;
+}

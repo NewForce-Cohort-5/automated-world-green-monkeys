@@ -14,6 +14,7 @@ export const CityList = () => {
     }
     contentElementCity.innerHTML += `
     <article class="cityList">
+    <h2> Cities to Visit </h2>
     ${cityHTMLRepresentations}
     </article>
     `

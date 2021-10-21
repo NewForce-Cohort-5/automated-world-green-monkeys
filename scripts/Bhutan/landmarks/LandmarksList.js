@@ -12,8 +12,9 @@ export const LandmarkList = () => {
         landmarkHTMLRepresentations += Landmark (singleLandmarkObject)
     }
     contentElementLandmark.innerHTML += `
-    <article class="landmarkList">
+    <section class="landmarkList">
+    <h2 class="landmark title"> Landmarks to Visit</h2>
     ${landmarkHTMLRepresentations}
-    <article>
+    </section>
     `
 }
