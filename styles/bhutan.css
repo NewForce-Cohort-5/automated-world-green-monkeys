@@ -50,22 +50,26 @@ h2 {
 }
 .country__flex {
 	display: flex;
-	justify-content:center;
+	flex-direction: row;
+	justify-content: center;
 	margin: 10px;
 	flex: 1;
 	
 	}
-.cityList .landmarkList .celebList {
+
+.cityList, .landmarkList, .celebList {
 	padding: 10px;
 }
-.celeb-card .city-card .landmark-card{
+.celeb-card, .city-card, .landmark-card{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
 	width: 300px;
+	padding: 10px;
 	}
-.landmark__description .cify__description .celebrity__description{
+
+.landmark__description, .city__description, .celebrity__description{
 	width:75%;
 	align-items: center;
 }
